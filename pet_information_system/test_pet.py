@@ -1,7 +1,7 @@
 from pet import Pet
 
 my_pet = Pet()
-
+my_pet.display_information()
 name = input("Enter pet name: ")
 animal_type = input("Enter animal type: ")
 age = int(input("Enter pet age: "))

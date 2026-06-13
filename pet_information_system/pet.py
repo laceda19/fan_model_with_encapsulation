@@ -21,4 +21,9 @@ class Pet:
 
     def get_age(self):
         return self.__age
-    
+
+    def display_information(self):
+        print("\n===== PET INFORMATION =====")
+        print("Name :", self.__name)
+        print("Type :", self.__animal_type)
+        print("Age  :", self.__age)
